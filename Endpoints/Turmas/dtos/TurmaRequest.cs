@@ -1,0 +1,12 @@
+﻿namespace w_escolas.Endpoints.Turmas.dtos;
+
+public class TurmaRequest
+{
+    public Guid CursoId { get; set; }
+    public string? Codigo { get; set; }
+    public string? Nome { get; set; }
+    public int Ordem { get; set; }
+    public int? MaxAlunos { get; set; }
+    public DateTime? DataInicial { get; set; }
+    public DateTime? DataFinal { get; set; }
+}
